@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a, ul, p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+.header{
+    border-top: 43px solid #4cb1ca;
+}
+.header .menu{
+   
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.shop{
+    padding: 8px 8px 25px 8px;
+    box-shadow: 0 0 15px 5px #eeeeee;
+    margin-bottom: 27px;
+   
+}
+.shop__text-img{
+    width: 100%;
+}
+.shop__text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+ 
+.shop__text-title{
+    color: #414148;
+    font-size: 14px;
+}
+.shop__text-ds{
+    color: #7db122;
+    font-size: 18px;
+}
+.shop__text-link{
+    width: 47px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: #7db122;
+    border-radius: 50%;
+}
+.shop__text-icon{
+    color: #fff;
+    font-size: 27px;
+}
+.slider-box{
+    border-top: 4px solid #4cb1ca;
+    box-shadow: 0 0 15 5px #eeeeee;
+    padding-bottom: 0px;
+}
+.slider-box .carousel-indicators{
+    bottom: -52px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 17px 0;
+    box-shadow: 0 0 15px 5px #eeeeee;
+}
+ 
+
+.carousel-indicators [data-bs-target]{
+    width: 11px;
+    height: 11px;
+    border-radius: 50px;
+    background: #7db122;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+
+.carousel-indicators .active{
+    background: #4cb1ca;
+}
+
+.carousel-inner{
+    padding: 0 13px 0 13px;
+}
+
+.block-form{
+    padding: 25px 24px 31px 24px;
+    border-top: 4px solid #4cb1ca;
+    margin-top: 71px;
+    text-align: center;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.178)
+}
+
+.block-form h3{
+    font-size: 24px;
+    color: #635f57;
+    text-transform: uppercase;
+}
+
+.block-form p{
+    font-size: 14px;
+    color: #696969;
+    
+}
+
+.block-form p::after{
+    content: '';
+    width: 85px;
+    height: 1px;
+    background: #ededed;
+    display: flex;
+    margin: 14px auto 14px auto;
+}
+
+.block-form form{
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.block-form input{
+    width: 185px;
+    height: 30px;
+    border: 1px solid #e2e2e2;
+    outline: none;
+}
+
+.block-form button{
+    background: #7db122;
+    color: #fff;
+    transition: 1s;
+    border: none;
+   margin-top: 18px;
+}
+
+.block-form button:hover{
+    background:#fff;
+    color:  #7db122;
+}
+
+section h2{
+    margin-top: 47px !important;
+    margin-bottom:24px; 
+}
+
+footer .contact{
+    background: #4cb1ca;
+    padding-top: 21px;
+    padding-bottom: 19px;
+}
+
+
+footer .contact  .top-contact a{
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;    
+   
+    
+}
+
+footer .contact  .top-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .contact  .top-contact span{
+    width: 64px;
+    height: 66px;
+    border-radius: 500%;
+    background: #fff;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #4cb1ca;
+   margin-right: 21px;
+}
+
+.info{
+    padding: 49px 55px;
+    background: #39a0b9
+}
+
+.info  h4{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 37px;
+}
+
+.info  p{
+    font-size: 13px;
+    color: #fff;
+    margin-top: 6px;
+}
+
+.info button{
+    border: none;
+    color: #5c74c5;
+    border-radius: 2px;
+    margin-top: 6px;
+}
+
+.info .img-box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    width: 230px;
+    border-top: 1px solid #4cb1ca;
+    border-bottom: 1px solid #4cb1ca;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+
+.info .img-box img{
+    width: 100%;
+}
+
+.info a span{
+    width: 115px;
+    height: 43px;
+    border-radius: 500%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    margin-bottom: 37px;
+   
+}
+
+.info a i{
+    font-size: 23px;
+    color: #39a0b9;
+}
+
+.info a{
+    color: #fff;
+    display: flex;
+    
+}
+
+.info ul li a i{
+    color: #fff;
+    margin-right: 14px;
+    
+}
+
+.info .icon{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.info .icon a{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.info .icon a i{
+    color: #39a0b9;
+    margin: 0;
+}
